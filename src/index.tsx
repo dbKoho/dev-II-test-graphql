@@ -9,7 +9,7 @@ import PokemonType from './pages/PokemonType';
 import PokemonDetail from './pages/PokemonDetail';
 
 const client = new ApolloClient({
-  uri: 'https://flyby-router-demo.herokuapp.com/',
+  uri: 'https://beta.pokeapi.co/graphql/v1beta',
   cache: new InMemoryCache(),
 });
 
