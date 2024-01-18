@@ -1,4 +1,3 @@
-import Button from '@mui/material/Button';
 
 const Home = (): JSX.Element => {
   return (
@@ -7,7 +6,6 @@ const Home = (): JSX.Element => {
       <code>display all the types with link to /types/:type</code>
 
       <br />
-      <Button variant="contained">MUI BUTTON</Button>
     </>
   );
 };
